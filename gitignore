@@ -1,0 +1,116 @@
+# Python bytecode 및 캐시 파일들
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 확장자 파일
+*.so
+
+# 배포/패키징 관련
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller 관련
+*.manifest
+*.spec
+
+# 설치 로그
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 테스트 및 커버리지 관련
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# 번역 파일
+*.mo
+*.pot
+
+# Django 관련 (필요시)
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask 관련 (필요시)
+instance/
+.webassets-cache
+
+# Scrapy 관련
+.scrapy
+
+# Sphinx 문서 빌드 결과
+docs/_build/
+
+# PyBuilder 관련
+target/
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints
+
+# IPython 관련
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# pytest 캐시
+.cache
+
+# mypy 캐시
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# VS Code 설정 (사용 시)
+.vscode/
+
+# PyCharm 관련 (IDE 설정 파일 등)
+.idea/
+*.iml
+
+# 가상 환경 디렉터리
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# OS별 불필요한 파일
+.DS_Store           # macOS
+Thumbs.db           # Windows
+ehthumbs.db         # Windows
+Desktop.ini         # Windows
+
